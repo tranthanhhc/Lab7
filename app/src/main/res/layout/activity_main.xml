@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/app_name"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/buttonBasicDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Dialog" />
+            <Button
+                android:id="@+id/buttonListDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List Dialog" />
+            <Button
+                android:id="@+id/buttonDefaultToast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Default Toast" />
+            <Button
+                android:id="@+id/buttonMyToast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Toast" />
+            <EditText
+                android:id="@+id/editTextFrist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input your 1st number"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+            <EditText
+                android:id="@+id/editTextSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Input your 2nd number"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+            <Button
+                android:id="@+id/buttonException"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exception Demo" />
+            <Button
+                android:id="@+id/buttonWidget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Widget" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo 2" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo3" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo4" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo5" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
